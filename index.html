@@ -20,12 +20,181 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Portfolio - Home page</title>
   </head>
   <body>
-    <h2>Hello,i am</h2>
-    <h1>Aida Mirzapour</h1>
-
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+          <a class="navbar-brand my-logo-name" href="#" title="Home">AM</a>
+          <button
+            class="navbar-toggler toggler-icon-custom"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  title="Back to Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="about.html"
+                  title="Read more about me"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="portfolio.html"
+                  title="See my portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="contact.html"
+                  title="Contact me here"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="header-description text-center mt-5">
+        <h3 class="pt-3">Hello , i am</h3>
+        <h1 class="my-name">Aida Mirzapour</h1>
+        <h4 class="p-4">Front-end developer based in Asia</h4>
+        <a href="contact.html" target="_blank"
+          ><button class="main-btn mb-5">Contact Me</button></a
+        >
+      </div>
+    </div>
+    <div class="container main">
+      <div class="row mt-5 sections">
+        <div class="col-sm-6 main-img">
+          <img
+            src="images/home/about-me.jpg"
+            alt="about me"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-sm-6 d-block mt-2 main-description">
+          <h2 class="main-header-name">Read more about me</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            voluptate odio dolor quisquam? Nemo reiciendis eaque unde quisquam,
+            rem at ratione cumque reprehenderit sint suscipit distinctio omnis
+            obcaecati debitis beatae?
+          </p>
+          <a
+            href="about.html"
+            target="_blank"
+            class="d-block text-center"
+            title="Go to about me"
+          >
+            <button class="main-btn">View more</button>
+          </a>
+        </div>
+      </div>
+      <div class="row mt-5 sections">
+        <div class="col-sm-6 d-block d-sm-none main-img">
+          <img
+            src="images/home/skills.jpg"
+            alt="my skills"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-sm-6 d-block mt-2 main-description">
+          <h2 class="main-header-name">Check my skills</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            voluptate odio dolor quisquam? Nemo reiciendis eaque unde quisquam,
+            rem at ratione cumque reprehenderit sint suscipit distinctio omnis
+            obcaecati debitis beatae?
+          </p>
+          <a
+            href="about.html#skills"
+            target="_blank"
+            class="d-block text-center"
+            title="Check my skills"
+          >
+            <button class="main-btn">View more</button>
+          </a>
+        </div>
+        <div class="col-sm-6 d-sm-block d-none main-img">
+          <img
+            src="images/home/skills.jpg"
+            alt="my skills"
+            class="img-fluid rounded"
+          />
+        </div>
+      </div>
+      <div class="row mt-5 sections">
+        <div class="col-sm-6 main-img">
+          <img
+            src="images/home/portfolio.jpg"
+            alt="portfolio"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-sm-6 d-block mt-2 main-description">
+          <h2 class="main-header-name">See my portfolio</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            voluptate odio dolor quisquam? Nemo reiciendis eaque unde quisquam,
+            rem at ratione cumque reprehenderit sint suscipit distinctio omnis
+            obcaecati debitis beatae?
+          </p>
+          <a
+            href="portfolio.html"
+            target="_blank"
+            class="d-block text-center"
+            title="Go to my portfolio"
+          >
+            <button class="main-btn">View more</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer text-center mt-5 mb-5">
+      <h5>Get in touch!</h5>
+      <hr class="footer-line" />
+      <div class="social-media">
+        <a href=""
+          ><img src="images/social media/instagram.png" alt="instagram logo"
+        /></a>
+        <a href=""
+          ><img src="images/social media/linkdin.png" alt="linkdin logo"
+        /></a>
+        <a href=""
+          ><img src="images/social media/github.png" alt="github logo"
+        /></a>
+      </div>
+    </div>
   </body>
 </html>

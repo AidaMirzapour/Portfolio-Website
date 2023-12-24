@@ -1,9 +1,89 @@
-h1 {
+:root {
+  --basic-darker-color: #882ffd;
+  --second-basic-light-color: #f1effc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+  background-color: var(--second-basic-light-color);
+}
+
+.toggler-icon-custom {
+  border: 1px solid var(--basic-darker-color);
+}
+
+.active {
+  color: var(--basic-darker-color) !important;
+}
+
+.header-description {
+  background-color: var(--second-basic-light-color);
+  
+}
+
+h1.my-name {
+  color: var(--basic-darker-color);
   font-family: "Playfair Display", serif;
-  font-size: 96px;
+  font-size: 80px;
   font-weight: bold;
 }
-h2 {
-  font-family: "Poppins", sans-serif;
+
+h3 {
   font-size: 40px;
+  font-weight: 300px;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.main-btn {
+  padding: 15px 40px;
+  border-radius: 8px;
+  background-color: var(--basic-darker-color);
+  color: white;
+  border: 1px solid var(--basic-darker-color);
+  font-size: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-btn:hover {
+  border: 1px solid var(--basic-darker-color);
+  background-color: white;
+  color: var(--basic-darker-color);
+  font-weight: bold;
+}
+button:active {
+  transform: scale(95%);
+}
+
+.sections {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-img {
+  width: 400px;
+}
+
+.main-header-name {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h5{
+  font-family: "Playfair Display", serif;
+  font-size: 30px; 
+}
+
+.footer-line{
+    width: 80%;
+    color: var(--basic-darker-color);
+    opacity: 1;
+    margin: 15px auto;
 }
