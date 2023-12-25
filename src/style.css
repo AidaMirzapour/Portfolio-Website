@@ -1,10 +1,15 @@
 :root {
   --basic-darker-color: #882ffd;
   --second-basic-light-color: #f1effc;
+  --paragraph-font-style:"Poppins", sans-serif;
+  --header-font-style:"Playfair Display", serif;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--header-font-style)
+}
+p{
+  font-family: var(--paragraph-font-style);
 }
 
 .navbar-custom {
@@ -24,21 +29,25 @@ body {
   
 }
 
-h1.my-name {
+.header-description h1 {
   color: var(--basic-darker-color);
-  font-family: "Playfair Display", serif;
   font-size: 80px;
   font-weight: bold;
 }
 
-h3 {
+.header-description p {
   font-size: 40px;
   font-weight: 300px;
 }
 
-h4 {
+p.h4 {
   font-size: 25px;
   font-weight: 100;
+}
+
+.main-description p{
+  line-height: 30px;
+  opacity: 0.7;
 }
 
 .main-btn {
@@ -49,6 +58,7 @@ h4 {
   border: 1px solid var(--basic-darker-color);
   font-size: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  
 }
 
 .main-btn:hover {
@@ -56,9 +66,6 @@ h4 {
   background-color: white;
   color: var(--basic-darker-color);
   font-weight: bold;
-}
-button:active {
-  transform: scale(95%);
 }
 
 .sections {
@@ -71,19 +78,23 @@ button:active {
 }
 
 .main-header-name {
-  font-family: "Playfair Display", serif;
   font-size: 38px;
   font-weight: 700;
 }
 
 h5{
-  font-family: "Playfair Display", serif;
   font-size: 30px; 
 }
 
 .footer-line{
-    width: 80%;
-    color: var(--basic-darker-color);
-    opacity: 1;
-    margin: 15px auto;
+  width: 80%;
+  color: var(--basic-darker-color);
+  opacity: 1;
+  margin: 15px auto;
+}
+
+
+a.btn:active{
+  transform: scale(95%);
+  border: none;
 }
