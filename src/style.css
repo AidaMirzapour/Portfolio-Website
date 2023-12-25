@@ -20,6 +20,10 @@ p{
   border: 1px solid var(--basic-darker-color);
 }
 
+.logo-img{
+  height: 40px;
+}
+
 .active {
   color: var(--basic-darker-color) !important;
 }
@@ -92,7 +96,6 @@ h5{
   opacity: 1;
   margin: 15px auto;
 }
-
 
 a.btn:active{
   transform: scale(95%);
