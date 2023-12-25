@@ -139,6 +139,9 @@ a.btn:active {
   .header-description .h4 {
     font-size: 20px;
   }
+  .main-description h2{
+    font-size: 30px;
+  }
   .main-img {
     width: 300px;
   }
