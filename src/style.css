@@ -111,12 +111,37 @@ p.h4 {
 
 }
 
+.about-main h2{
+  font-size: 24px;
+  color: var(--basic-darker-color);
+  font-weight: bold;
+}
+
 .about-main .info {
   font-size: 17px;
 }
 
 .info-icon {
   font-size: 10px;
+}
+
+.education-info h3 , .skills-info h3{
+  color: var(--basic-darker-color);
+  font-size: 32px;
+  text-align: center;
+}
+
+.body-line{
+  color: var(--basic-darker-color);
+  opacity: 1;
+  margin: 15px auto;
+}
+
+.justify-custom{
+  justify-content: space-between;
+}
+.icon-img{
+  width: 20px;
 }
 
 h5 {
