@@ -106,6 +106,19 @@ p.h4 {
   font-weight: 700;
 }
 
+.about-main-img{
+  width: 400px;
+
+}
+
+.about-main .info {
+  font-size: 17px;
+}
+
+.info-icon {
+  font-size: 10px;
+}
+
 h5 {
   font-size: 30px;
 }
