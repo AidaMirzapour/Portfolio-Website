@@ -89,7 +89,7 @@ p.h4 {
 
 .main-btn:hover {
   border: 1px solid var(--basic-darker-color);
-  background-color: white;
+  background-color: var(--second-basic-light-color);
   color: var(--basic-darker-color);
   font-weight: bold;
 }
@@ -152,12 +152,12 @@ p.h4 {
   width: 60%;
 }
 
-.portfolio-projects .card{
+.portfolio-projects .card {
   border: 1px solid var(--basic-darker-color);
 }
 
-.portfolio-projects .card-img-top{
-  border-bottom: 2px dashed var(--basic-darker-color) ;
+.portfolio-projects .card-img-top {
+  border-bottom: 2px dashed var(--basic-darker-color);
 }
 
 /*footer*/
@@ -176,7 +176,6 @@ a.btn:active {
   transform: scale(95%);
   border: none;
 }
-
 
 @media (max-width: 767px) {
   .header-description h1 {
@@ -236,7 +235,8 @@ a.btn:active {
   .header hr {
     width: 350px;
   }
-  .education-info strong , .education-info span{
+  .education-info strong,
+  .education-info span {
     font-size: 14px;
   }
 }
