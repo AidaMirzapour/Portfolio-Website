@@ -106,12 +106,15 @@ p.h4 {
   font-weight: 700;
 }
 
-.about-main-img{
-  width: 400px;
-
+.about-main-img {
+  width: 350px;
 }
 
-.about-main h2{
+.about-main h1 {
+  font-size: 45px;
+}
+
+.about-main h2 {
   font-size: 24px;
   color: var(--basic-darker-color);
   font-weight: bold;
@@ -125,30 +128,26 @@ p.h4 {
   font-size: 10px;
 }
 
-.education-info h3 , .skills-info h3{
+.education-info h3,
+.skills-info h3 {
   color: var(--basic-darker-color);
   font-size: 32px;
   text-align: center;
 }
 
-.body-line{
+.body-line {
   color: var(--basic-darker-color);
   opacity: 1;
   margin: 15px auto;
 }
 
-.justify-custom{
-  justify-content: space-evenly;
-}
-
-.icon-img{
+.icon-img {
   width: 20px;
 }
 
-.see-project{
+.see-project {
   margin: 50px 0;
   width: 60%;
-  
 }
 
 h5 {
@@ -167,6 +166,7 @@ a.btn:active {
   border: none;
 }
 
+
 @media (max-width: 767px) {
   .header-description h1 {
     font-size: 60px;
@@ -180,6 +180,13 @@ a.btn:active {
   .main-description h2,
   .main-description p {
     text-align: center !important;
+  }
+  .about-main h1,
+  .about-main h2 {
+    text-align: center !important;
+  }
+  .about-main-img {
+    width: 250px;
   }
 }
 
@@ -211,5 +218,14 @@ a.btn:active {
   .main-btn {
     padding: 8px 25px;
     font-size: 12px;
+  }
+  .header h2 {
+    font-size: 55px;
+  }
+  .header hr {
+    width: 350px;
+  }
+  .education-info strong , .education-info span{
+    font-size: 14px;
   }
 }
