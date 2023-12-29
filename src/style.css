@@ -58,7 +58,7 @@ p.h4 {
 }
 
 .header h2 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 500;
 }
 
@@ -160,6 +160,17 @@ p.h4 {
   border-bottom: 2px dashed var(--basic-darker-color);
 }
 
+.card-title {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body .card-text {
+  font-size: 15px;
+}
+
 /*footer*/
 h5 {
   font-size: 28px;
@@ -180,6 +191,9 @@ a.btn:active {
 @media (max-width: 767px) {
   .header-description h1 {
     font-size: 60px;
+  }
+  .header .mt-5.pt-5.text-center {
+    font-size: 50px;
   }
   .header-description .pt-3 {
     font-size: 35px;
@@ -213,6 +227,9 @@ a.btn:active {
   .header-description h1 {
     font-size: 40px;
   }
+  .header .mt-5.pt-5.text-center {
+    font-size: 35px;
+  }
   .header-description .pt-3 {
     font-size: 25px;
   }
@@ -222,6 +239,7 @@ a.btn:active {
   .main-description h2 {
     font-size: 30px;
   }
+
   .main-img {
     width: 300px;
   }
@@ -230,7 +248,7 @@ a.btn:active {
     font-size: 12px;
   }
   .header h2 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .header hr {
     width: 350px;
