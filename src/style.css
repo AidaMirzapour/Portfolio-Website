@@ -42,7 +42,8 @@ p {
   background-color: var(--second-basic-light-color);
 }
 
-.header-description h1 {
+.header-description h1,
+.contact-header h1 {
   color: var(--basic-darker-color);
   font-size: 80px;
   font-weight: bold;
@@ -171,6 +172,32 @@ p.h4 {
   font-size: 15px;
 }
 
+.contact-main h4 {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 15px var(--second-basic-light-color);
+}
+
+.main-line {
+  width: 90%;
+  color: var(--basic-darker-color);
+  opacity: 1;
+  margin: 15px auto;
+}
+
+.contact-main .mail-address {
+  text-decoration: none;
+  color: black;
+  font-family: Poppins;
+  font-size: 27px;
+  display: block;
+  text-align: center;
+}
+
 /*footer*/
 h5 {
   font-size: 28px;
@@ -189,7 +216,8 @@ a.btn:active {
 }
 
 @media (max-width: 767px) {
-  .header-description h1 {
+  .header-description h1,
+  .contact-header h1 {
     font-size: 60px;
   }
   .header .mt-5.pt-5.text-center {
@@ -224,7 +252,8 @@ a.btn:active {
   .navbar-toggler-icon {
     width: 20px;
   }
-  .header-description h1 {
+  .header-description h1,
+  .contact-header h1 {
     font-size: 40px;
   }
   .header .mt-5.pt-5.text-center {
@@ -239,7 +268,6 @@ a.btn:active {
   .main-description h2 {
     font-size: 30px;
   }
-
   .main-img {
     width: 300px;
   }
@@ -256,5 +284,11 @@ a.btn:active {
   .education-info strong,
   .education-info span {
     font-size: 14px;
+  }
+  .contact-main h4{
+    font-size: 38px;
+  }
+  .contact-main .mail-address{
+    font-size: 20px;
   }
 }
