@@ -196,6 +196,11 @@ p.h4 {
   font-size: 27px;
   display: block;
   text-align: center;
+  margin: 0 auto;
+}
+
+.contact-main .mail-address:hover{
+  color: var(--basic-darker-color);
 }
 
 /*footer*/
@@ -208,6 +213,11 @@ h5 {
   color: var(--basic-darker-color);
   opacity: 1;
   margin: 15px auto;
+}
+
+.footer p a{
+  color: var(--basic-darker-color);
+  text-decoration: none;
 }
 
 a.btn:active {
@@ -290,5 +300,8 @@ a.btn:active {
   }
   .contact-main .mail-address{
     font-size: 20px;
+  }
+  .footer p{
+    font-size: 10px;
   }
 }
