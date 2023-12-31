@@ -199,7 +199,7 @@ p.h4 {
   margin: 0 auto;
 }
 
-.contact-main .mail-address:hover{
+.contact-main .mail-address:hover {
   color: var(--basic-darker-color);
 }
 
@@ -208,12 +208,24 @@ a.btn:active {
   border: none;
 }
 
+.navigation-top i {
+  background-color: var(--basic-darker-color);
+  padding: 5px 7px;
+  color: var(--second-basic-light-color);
+  border-radius: 50%;
+}
+
+.navigation-top i:hover {
+  color: var(--basic-darker-color);
+  background-color: var(--second-basic-light-color);
+}
+
 /*footer*/
 h5 {
   font-size: 28px;
 }
 
-.social-media i{
+.social-media i {
   background-color: var(--second-basic-light-color);
   color: var(--basic-darker-color);
   padding: 10px;
@@ -221,7 +233,7 @@ h5 {
   margin: 7px;
 }
 
-.social-media i:hover{
+.social-media i:hover {
   background-color: var(--basic-darker-color);
   color: var(--second-basic-light-color);
 }
@@ -233,7 +245,7 @@ h5 {
   margin: 15px auto;
 }
 
-.footer p a{
+.footer p a {
   color: var(--basic-darker-color);
   text-decoration: none;
 }
@@ -308,13 +320,13 @@ h5 {
   .education-info span {
     font-size: 14px;
   }
-  .contact-main h4{
+  .contact-main h4 {
     font-size: 38px;
   }
-  .contact-main .mail-address{
+  .contact-main .mail-address {
     font-size: 20px;
   }
-  .footer p{
+  .footer p {
     font-size: 10px;
   }
 }
