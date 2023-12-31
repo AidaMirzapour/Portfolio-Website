@@ -203,9 +203,27 @@ p.h4 {
   color: var(--basic-darker-color);
 }
 
+a.btn:active {
+  transform: scale(95%);
+  border: none;
+}
+
 /*footer*/
 h5 {
   font-size: 28px;
+}
+
+.social-media i{
+  background-color: var(--second-basic-light-color);
+  color: var(--basic-darker-color);
+  padding: 10px;
+  border-radius: 50%;
+  margin: 7px;
+}
+
+.social-media i:hover{
+  background-color: var(--basic-darker-color);
+  color: var(--second-basic-light-color);
 }
 
 .footer-line {
@@ -218,11 +236,6 @@ h5 {
 .footer p a{
   color: var(--basic-darker-color);
   text-decoration: none;
-}
-
-a.btn:active {
-  transform: scale(95%);
-  border: none;
 }
 
 @media (max-width: 767px) {
