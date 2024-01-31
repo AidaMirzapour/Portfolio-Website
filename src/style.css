@@ -170,6 +170,7 @@ p.h4 {
 
 .card-body .card-text {
   font-size: 15px;
+  height: 100px;
 }
 
 .contact-main h4 {
